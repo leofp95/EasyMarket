@@ -99,7 +99,6 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "EasyMarket.Android.dll" comes first in this list. */
 		"EasyMarket.Android.dll",
-		"EasyMarket.dll",
 		"FormsViewGroup.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
 		"Xamarin.Android.Support.Design.dll",
@@ -110,14 +109,15 @@ class MonoPackageManager_Resources {
 		"Xamarin.Android.Support.v7.RecyclerView.dll",
 		"Xamarin.Android.Support.Vector.Drawable.dll",
 		"Xamarin.Forms.Core.dll",
-		"Xamarin.Forms.Maps.Android.dll",
 		"Xamarin.Forms.Maps.dll",
-		"Xamarin.Forms.Platform.Android.dll",
+		"Xamarin.Forms.Maps.Android.dll",
 		"Xamarin.Forms.Platform.dll",
+		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Xaml.dll",
 		"Xamarin.GooglePlayServices.Base.dll",
 		"Xamarin.GooglePlayServices.Basement.dll",
 		"Xamarin.GooglePlayServices.Maps.dll",
+		"EasyMarket.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

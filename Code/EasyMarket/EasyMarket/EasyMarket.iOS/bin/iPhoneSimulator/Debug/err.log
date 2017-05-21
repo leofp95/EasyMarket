@@ -1,0 +1,118 @@
+2017-05-02 20:42:13.134 EasyMarket.iOS[3843:57197] Xamarin.iOS: Added IP to look for the IDE: 127.0.0.1
+2017-05-02 20:42:13.135 EasyMarket.iOS[3843:57197] Xamarin.iOS: IDE Port: 10000 Transport: WiFi
+2017-05-02 20:42:13.136 EasyMarket.iOS[3843:57197] Xamarin.iOS: Socket error while connecting to IDE on 127.0.0.1:10000: Connection refused
+2017-05-02 20:42:13.137 EasyMarket.iOS[3843:57186] Xamarin.iOS: Debugger not loaded (disabled).
+2017-05-02 20:42:13.139 EasyMarket.iOS[3843:57186] Xamarin.iOS: Profiler not loaded (disabled)
+2017-05-02 20:42:13.198 EasyMarket.iOS[3843:57186] Xamarin.iOS: Added dllmap for objc_msgSend
+2017-05-02 20:42:14.651 EasyMarket.iOS[3843:57186] 
+Unhandled Exception:
+System.ArgumentNullException: Value cannot be null.
+Parameter name: image
+  at UIKit.UIColor.FromPatternImage (UIKit.UIImage image) [0x00011] in /Users/builder/data/lanes/4466/a04678c2/source/xamarin-macios/src/build/ios/native/UIKit/UIColor.g.cs:218 
+  at Xamarin.Forms.Platform.iOS.PageRenderer.UpdateBackground () [0x00019] in C:\BuildAgent3\work\ca3766cfc22354a1\Xamarin.Forms.Platform.iOS\Renderers\PageRenderer.cs:243 
+  at Xamarin.Forms.Platform.iOS.PageRenderer.ViewDidLoad () [0x00074] in C:\BuildAgent3\work\ca3766cfc22354a1\Xamarin.Forms.Platform.iOS\Renderers\PageRenderer.cs:102 
+--- End of stack trace from previous location where exception was thrown ---
+  at (wrapper managed-to-native) ObjCRuntime.Messaging:IntPtr_objc_msgSendSuper (intptr,intptr)
+  at UIKit.UIViewController.get_View () [0x00030] in /Users/builder/data/lanes/4466/a04678c2/source/xamarin-macios/src/build/ios/native/UIKit/UIViewController.g.cs:2718 
+  at Xamarin.Forms.Platform.iOS.PageRenderer.get_NativeView () [0x00000] in C:\BuildAgent3\work\ca3766cfc22354a1\Xamarin.Forms.Platform.iOS\Renderers\PageRenderer.cs:40 
+  at Xamarin.Forms.Platform.iOS.PageRenderer.SetElement (Xamarin.Forms.VisualElement element) [0x0004f] in C:\BuildAgent3\work\ca3766cfc22354a1\Xamarin.Forms.Platform.iOS\Renderers\PageRenderer.cs:55 
+  at Xamarin.Forms.Platform.iOS.Platform.CreateRenderer (Xamarin.Forms.VisualElement element) [0x0001b] in C:\BuildAgent3\work\ca3766cfc22354a1\Xamarin.Forms.Platform.iOS\Platform.cs:192 
+  at Xamarin.Forms.Platform.iOS.NavigationRenderer.CreateViewControllerForPage (Xamarin.Forms.Page page) [0x00021] in C:\BuildAgent3\work\ca3766cfc22354a1\Xamarin.Forms.Platform.iOS\Renderers\NavigationRenderer.cs:340 
+  at Xamarin.Forms.Platform.iOS.NavigationRenderer+<OnPushAsync>d__44.MoveNext () [0x0000a] in C:\BuildAgent3\work\ca3766cfc22354a1\Xamarin.Forms.Platform.iOS\Renderers\NavigationRenderer.cs:327 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in /Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/referencesource/mscorlib/system/runtime/exceptionservices/exceptionservicescommon.cs:143 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x00047] in /Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs:187 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x0002e] in /Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs:156 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x0000b] in /Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs:128 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in /Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs:357 
+  at Xamarin.Forms.Platform.iOS.NavigationRenderer+<<ViewDidLoad>b__39_0>d.MoveNext () [0x00022] in C:\BuildAgent3\work\ca3766cfc22354a1\Xamarin.Forms.Platform.iOS\Renderers\NavigationRenderer.cs:214 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in /Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/referencesource/mscorlib/system/runtime/exceptionservices/exceptionservicescommon.cs:143 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore.<ThrowAsync>m__0 (System.Object state) [0x00000] in /Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/AsyncMethodBuilder.cs:1018 
+  at UIKit.UIKitSynchronizationContext+<Post>c__AnonStorey0.<>m__0 () [0x00000] in /Users/builder/data/lanes/4466/a04678c2/source/xamarin-macios/src/UIKit/UIKitSynchronizationContext.cs:24 
+  at Foundation.NSAsyncActionDispatcher.Apply () [0x00000] in /Users/builder/data/lanes/4466/a04678c2/source/xamarin-macios/src/Foundation/NSAction.cs:163 
+--- End of stack trace from previous location where exception was thrown ---
+  at (wrapper managed-to-native) UIKit.UIApplication:UIApplicationMain (int,string[],intptr,intptr)
+  at UIKit.UIApplication.Main (System.String[] args, System.IntPtr principal, System.IntPtr delegate) [0x00005] in /Users/builder/data/lanes/4466/a04678c2/source/xamarin-macios/src/UIKit/UIApplication.cs:79 
+  at UIKit.UIApplication.Main (System.String[] args, System.String principalClassName, System.String delegateClassName) [0x00038] in /Users/builder/data/lanes/4466/a04678c2/source/xamarin-macios/src/UIKit/UIApplication.cs:63 
+  at EasyMarket.iOS.Application.Main (System.String[] args) [0x00008] in /Users/Leo/Documents/GitHub/EasyMarket/Code/EasyMarket/EasyMarket/EasyMarket.iOS/Main.cs:17 
+2017-05-02 20:42:14.654 EasyMarket.iOS[3843:57186] Unhandled managed exception:
+Value cannot be null.
+Parameter name: image (System.ArgumentNullException)
+  at UIKit.UIColor.FromPatternImage (UIKit.UIImage image) [0x00011] in /Users/builder/data/lanes/4466/a04678c2/source/xamarin-macios/src/build/ios/native/UIKit/UIColor.g.cs:218 
+  at Xamarin.Forms.Platform.iOS.PageRenderer.UpdateBackground () [0x00019] in C:\BuildAgent3\work\ca3766cfc22354a1\Xamarin.Forms.Platform.iOS\Renderers\PageRenderer.cs:243 
+  at Xamarin.Forms.Platform.iOS.PageRenderer.ViewDidLoad () [0x00074] in C:\BuildAgent3\work\ca3766cfc22354a1\Xamarin.Forms.Platform.iOS\Renderers\PageRenderer.cs:102 
+--- End of stack trace from previous location where exception was thrown ---
+  at (wrapper managed-to-native) ObjCRuntime.Messaging:IntPtr_objc_msgSendSuper (intptr,intptr)
+  at UIKit.UIViewController.get_View () [0x00030] in /Users/builder/data/lanes/4466/a04678c2/source/xamarin-macios/src/build/ios/native/UIKit/UIViewController.g.cs:2718 
+  at Xamarin.Forms.Platform.iOS.PageRenderer.get_NativeView () [0x00000] in C:\BuildAgent3\work\ca3766cfc22354a1\Xamarin.Forms.Platform.iOS\Renderers\PageRenderer.cs:40 
+  at Xamarin.Forms.Platform.iOS.PageRenderer.SetElement (Xamarin.Forms.VisualElement element) [0x0004f] in C:\BuildAgent3\work\ca3766cfc22354a1\Xamarin.Forms.Platform.iOS\Renderers\PageRenderer.cs:55 
+  at Xamarin.Forms.Platform.iOS.Platform.CreateRenderer (Xamarin.Forms.VisualElement element) [0x0001b] in C:\BuildAgent3\work\ca3766cfc22354a1\Xamarin.Forms.Platform.iOS\Platform.cs:192 
+  at Xamarin.Forms.Platform.iOS.NavigationRenderer.CreateViewControllerForPage (Xamarin.Forms.Page page) [0x00021] in C:\BuildAgent3\work\ca3766cfc22354a1\Xamarin.Forms.Platform.iOS\Renderers\NavigationRenderer.cs:340 
+  at Xamarin.Forms.Platform.iOS.NavigationRenderer+<OnPushAsync>d__44.MoveNext () [0x0000a] in C:\BuildAgent3\work\ca3766cfc22354a1\Xamarin.Forms.Platform.iOS\Renderers\NavigationRenderer.cs:327 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in /Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/referencesource/mscorlib/system/runtime/exceptionservices/exceptionservicescommon.cs:143 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x00047] in /Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs:187 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x0002e] in /Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs:156 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x0000b] in /Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs:128 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in /Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs:357 
+  at Xamarin.Forms.Platform.iOS.NavigationRenderer+<<ViewDidLoad>b__39_0>d.MoveNext () [0x00022] in C:\BuildAgent3\work\ca3766cfc22354a1\Xamarin.Forms.Platform.iOS\Renderers\NavigationRenderer.cs:214 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in /Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/referencesource/mscorlib/system/runtime/exceptionservices/exceptionservicescommon.cs:143 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore.<ThrowAsync>m__0 (System.Object state) [0x00000] in /Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/AsyncMethodBuilder.cs:1018 
+  at UIKit.UIKitSynchronizationContext+<Post>c__AnonStorey0.<>m__0 () [0x00000] in /Users/builder/data/lanes/4466/a04678c2/source/xamarin-macios/src/UIKit/UIKitSynchronizationContext.cs:24 
+  at Foundation.NSAsyncActionDispatcher.Apply () [0x00000] in /Users/builder/data/lanes/4466/a04678c2/source/xamarin-macios/src/Foundation/NSAction.cs:163 
+--- End of stack trace from previous location where exception was thrown ---
+  at (wrapper managed-to-native) UIKit.UIApplication:UIApplicationMain (int,string[],intptr,intptr)
+  at UIKit.UIApplication.Main (System.String[] args, System.IntPtr principal, System.IntPtr delegate) [0x00005] in /Users/builder/data/lanes/4466/a04678c2/source/xamarin-macios/src/UIKit/UIApplication.cs:79 
+  at UIKit.UIApplication.Main (System.String[] args, System.String principalClassName, System.String delegateClassName) [0x00038] in /Users/builder/data/lanes/4466/a04678c2/source/xamarin-macios/src/UIKit/UIApplication.cs:63 
+  at EasyMarket.iOS.Application.Main (System.String[] args) [0x00008] in /Users/Leo/Documents/GitHub/EasyMarket/Code/EasyMarket/EasyMarket/EasyMarket.iOS/Main.cs:17 
+2017-05-02 20:42:14.657 EasyMarket.iOS[3843:57186] critical: Stacktrace:
+
+2017-05-02 20:42:14.657 EasyMarket.iOS[3843:57186] critical: 
+Native stacktrace:
+
+2017-05-02 20:42:14.706 EasyMarket.iOS[3843:57186] critical: 	0   EasyMarket.iOS                      0x000f7794 mono_handle_native_sigsegv + 292
+2017-05-02 20:42:14.706 EasyMarket.iOS[3843:57186] critical: 	1   EasyMarket.iOS                      0x00100835 sigabrt_signal_handler + 149
+2017-05-02 20:42:14.707 EasyMarket.iOS[3843:57186] critical: 	2   libsystem_platform.dylib            0x07d70e5b _sigtramp + 43
+2017-05-02 20:42:14.707 EasyMarket.iOS[3843:57186] critical: 	3   ???                                 0xffffffff 0x0 + 4294967295
+2017-05-02 20:42:14.707 EasyMarket.iOS[3843:57186] critical: 	4   libsystem_c.dylib                   0x07ae511f abort + 141
+2017-05-02 20:42:14.708 EasyMarket.iOS[3843:57186] critical: 	5   EasyMarket.iOS                      0x002861f0 xamarin_printf + 0
+2017-05-02 20:42:14.708 EasyMarket.iOS[3843:57186] critical: 	6   EasyMarket.iOS                      0x0016911b mono_invoke_unhandled_exception_hook + 139
+2017-05-02 20:42:14.708 EasyMarket.iOS[3843:57186] critical: 	7   EasyMarket.iOS                      0x000f74e9 mono_handle_exception_internal + 4425
+2017-05-02 20:42:14.708 EasyMarket.iOS[3843:57186] critical: 	8   EasyMarket.iOS                      0x000f6399 mono_handle_exception + 41
+2017-05-02 20:42:14.709 EasyMarket.iOS[3843:57186] critical: 	9   EasyMarket.iOS                      0x00091bfc mono_x86_throw_exception + 220
+2017-05-02 20:42:14.709 EasyMarket.iOS[3843:57186] critical: 	10  ???                                 0x0fe02b57 0x0 + 266349399
+2017-05-02 20:42:14.709 EasyMarket.iOS[3843:57186] critical: 	11  EasyMarket.iOS                      0x0028c128 xamarin_invoke_trampoline + 8920
+2017-05-02 20:42:14.709 EasyMarket.iOS[3843:57186] critical: 	12  EasyMarket.iOS                      0x002931dc xamarin_arch_trampoline + 156
+2017-05-02 20:42:14.710 EasyMarket.iOS[3843:57186] critical: 	13  EasyMarket.iOS                      0x00293886 xamarin_i386_common_trampoline + 36
+2017-05-02 20:42:14.710 EasyMarket.iOS[3843:57186] critical: 	14  libobjc.A.dylib                     0x039d41b9 -[NSObject performSelector:withObject:] + 59
+2017-05-02 20:42:14.710 EasyMarket.iOS[3843:57186] critical: 	15  Foundation                          0x01d334e1 __NSThreadPerformPerform + 330
+2017-05-02 20:42:14.711 EasyMarket.iOS[3843:57186] critical: 	16  CoreFoundation                      0x0346bcbf __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__ + 15
+2017-05-02 20:42:14.711 EasyMarket.iOS[3843:57186] critical: 	17  CoreFoundation                      0x0344fd98 __CFRunLoopDoSources0 + 424
+2017-05-02 20:42:14.711 EasyMarket.iOS[3843:57186] critical: 	18  CoreFoundation                      0x0344f284 __CFRunLoopRun + 1124
+2017-05-02 20:42:14.711 EasyMarket.iOS[3843:57186] critical: 	19  CoreFoundation                      0x0344ebab CFRunLoopRunSpecific + 395
+2017-05-02 20:42:14.712 EasyMarket.iOS[3843:57186] critical: 	20  CoreFoundation                      0x0344ea0b CFRunLoopRunInMode + 123
+2017-05-02 20:42:14.712 EasyMarket.iOS[3843:57186] critical: 	21  GraphicsServices                    0x04a45b4c GSEventRunModal + 177
+2017-05-02 20:42:14.712 EasyMarket.iOS[3843:57186] critical: 	22  GraphicsServices                    0x04a459c7 GSEventRun + 80
+2017-05-02 20:42:14.712 EasyMarket.iOS[3843:57186] critical: 	23  UIKit                               0x0056032b UIApplicationMain + 148
+2017-05-02 20:42:14.712 EasyMarket.iOS[3843:57186] critical: 	24  ???                                 0x0fe76a80 0x0 + 266824320
+2017-05-02 20:42:14.713 EasyMarket.iOS[3843:57186] critical: 	25  ???                                 0x0fe7698c 0x0 + 266824076
+2017-05-02 20:42:14.713 EasyMarket.iOS[3843:57186] critical: 	26  ???                                 0x0fe75670 0x0 + 266819184
+2017-05-02 20:42:14.713 EasyMarket.iOS[3843:57186] critical: 	27  ???                                 0x0fe75504 0x0 + 266818820
+2017-05-02 20:42:14.713 EasyMarket.iOS[3843:57186] critical: 	28  ???                                 0x0fe755bc 0x0 + 266819004
+2017-05-02 20:42:14.714 EasyMarket.iOS[3843:57186] critical: 	29  EasyMarket.iOS                      0x00106c38 mono_jit_runtime_invoke + 744
+2017-05-02 20:42:14.714 EasyMarket.iOS[3843:57186] critical: 	30  EasyMarket.iOS                      0x001c70e6 do_runtime_invoke + 86
+2017-05-02 20:42:14.714 EasyMarket.iOS[3843:57186] critical: 	31  EasyMarket.iOS                      0x001c9d36 do_exec_main_checked + 150
+2017-05-02 20:42:14.714 EasyMarket.iOS[3843:57186] critical: 	32  EasyMarket.iOS                      0x001c8eb9 mono_runtime_run_main_checked + 73
+2017-05-02 20:42:14.714 EasyMarket.iOS[3843:57186] critical: 	33  EasyMarket.iOS                      0x000913aa mono_jit_exec + 314
+2017-05-02 20:42:14.715 EasyMarket.iOS[3843:57186] critical: 	34  EasyMarket.iOS                      0x0029262f xamarin_main + 3439
+2017-05-02 20:42:14.715 EasyMarket.iOS[3843:57186] critical: 	35  EasyMarket.iOS                      0x00293dc1 main + 113
+2017-05-02 20:42:14.715 EasyMarket.iOS[3843:57186] critical: 	36  libdyld.dylib                       0x07a3f799 start + 1
+2017-05-02 20:42:14.716 EasyMarket.iOS[3843:57186] critical: 
+=================================================================
+Got a SIGABRT while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+

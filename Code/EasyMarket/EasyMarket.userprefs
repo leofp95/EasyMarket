@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{EFCE2BCC-BAB3-4F90-BA8E-200CB10C8B03}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="EasyMarket/EasyMarket/Home/HomePageDetail.xaml.cs" Line="71" Column="1" />
+      <File FileName="EasyMarket/EasyMarket.iOS/AppDelegate.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.EasyMarket.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.96C323C0-F034-4CDE-9972-7EF07A7C1A1A" />
+  <MonoDevelop.Ide.ItemProperties.EasyMarket.Android PreferredExecutionTarget="Android.Pixel_XL_API_19" />
+</Properties>
